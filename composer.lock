@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2163649bf2e5058cf5066af26303c3f",
+    "content-hash": "7816b0c23996551c2a9b5240ab1e7e82",
     "packages": [
         {
             "name": "apigee/apigee-client-php",
@@ -4866,6 +4866,15 @@
                 "source": "https://github.com/firebase/php-jwt/tree/v5.4.0"
             },
             "time": "2021-06-23T19:00:23+00:00"
+        },
+        {
+            "name": "furf/jquery-ui-touch-punch",
+            "version": "dev-master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/furf/jquery-ui-touch-punch/archive/master.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "grasmash/expander",
@@ -10890,7 +10899,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "furf/jquery-ui-touch-punch": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

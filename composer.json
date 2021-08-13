@@ -26,14 +26,15 @@
         }
     ],
     "require": {
-        "pantheon-upstreams/upstream-configuration": "*",
         "apigee/apigee_devportal_kickstart": "^1.21.0",
         "drupal/apigee_m10n": "^1.7",
         "drupal/commerce": "^2.21",
         "drupal/google_analytics": "^3.1",
         "drupal/jsonapi_extras": "^3.17",
         "drupal/smtp": "^1.0",
-        "drush/drush": "^10"
+        "drush/drush": "^10",
+        "furf/jquery-ui-touch-punch": "dev-master",
+        "pantheon-upstreams/upstream-configuration": "*"
     },
     "require-dev": {
         "apigee/apigee-mock-client-php": "^1.1"

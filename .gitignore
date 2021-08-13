@@ -132,4 +132,4 @@ upstream/web/
 .env
 
 # Ignore Lando files
-.lando
+.lando.yml

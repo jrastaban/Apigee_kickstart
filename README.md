@@ -1,22 +1,11 @@
-# Composer-enabled Drupal template
+# Apigee Kickstart V9 for Pantheon
 
-This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
-that work with the Platform's Integrated Composer build process. It is also the
-Platform's standard Drupal 9 upstream.
+This is Pantheon's recommended starting point for creating a new Apigee Developer Portal with Drupal 9.
 
-Unlike with earlier Pantheon upstreams, files such as Drupal Core that you are
-unlikely to adjust while building sites are not in the main branch of the 
-repository. Instead, they are referenced as dependencies that are installed by
-Composer.
+Unlike with earlier Pantheon Apigee upstream, this pure Drupal 9 version contains no core, module, theme or library artifacts.
+If only contains minimal composer.json requirements and scoffolding.
 
-For more information and detailed installation guides, please visit the
-Integrated Composer Pantheon documentation: https://pantheon.io/docs/integrated-composer
 
-## Contributing
+## How to install
 
-Contributions are welcome in the form of GitHub pull requests. However, the
-`pantheon-upstreams/drupal-project` repository is a mirror that does not
-directly accept pull requests.
-
-Instead, to propose a change, please fork [pantheon-systems/drupal-project](https://github.com/pantheon-systems/drupal-project)
-and submit a PR to that repository.
+Clone this repository to your docroot.  Run `composer install`.  Hit your portal URL to complete the setup.
